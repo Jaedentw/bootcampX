@@ -21,7 +21,7 @@ pool.query(`
   WHERE cohorts.name = '${myArgs[0] || 'JUL02'}'
   GROUP BY teacher, cohort
   ORDER BY teacher;
-`)
+`, myArgs)
 
 .then(res => {
   res.rows.forEach(row => {
