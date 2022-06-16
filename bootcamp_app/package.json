@@ -1,0 +1,23 @@
+{
+  "name": "bootcampx",
+  "version": "1.0.0",
+  "main": "students.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Jaedentw/bootcampX.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Jaedentw/bootcampX/issues"
+  },
+  "homepage": "https://github.com/Jaedentw/bootcampX#readme",
+  "description": "",
+  "dependencies": {
+    "pg": "^8.7.3"
+  }
+}
